@@ -29,7 +29,7 @@ You're investigating a missing person who went missing following a party in 2019
 ```
 謎の文字列がBase64だった
 
-```
+```bash
 $ echo NTIyMyBTb3V0aCBCcmFlc3dvb2QgQm91bGV2YXJkLCBIb3VzdG9u|base64 -d 
 5223 South Braeswood Boulevard, Houston
 ```
@@ -116,7 +116,7 @@ https://github.com/pinterest/snappass/commit/aeeedf3b77aaa568a695a87d51eda97821e
 
 main.pyから必要な部分を取り出してコードを書きます。
 
-```
+```python
 import os
 import sys
 import uuid
@@ -132,7 +132,7 @@ print (encryption_key)
 print (uuid.uuid4().hex)
 ```
 
-```
+```bash
 $ export SECRET_KEY=6ardCD6XQ49FLrxY6fd7pB3DeeNmzn8Y
 $ python3 Challenge12.py
 b'NmFyZENENlhRNDlGTHJ4WTZmZDdwQjNEZWVObXpuOFk='
