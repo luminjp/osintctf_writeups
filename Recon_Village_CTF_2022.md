@@ -6,9 +6,8 @@
 
 ## Challenge 3
 
-```
-On 11 August, what was the primary email domain from which spam was reported as coming from 185.129.62.62 and 107.189.28.253 (two bot IPs)?
-```
+
+>On 11 August, what was the primary email domain from which spam was reported as coming from 185.129.62.62 and 107.189.28.253 (two bot IPs)?
 
 spamなので、いくつかあるspam情報公開サイトから
 stop forum spam で探して
@@ -24,9 +23,8 @@ flag:{hiroyuki4010.yoshito33.inwebmail.fun}
 
 ## Challenge 5
 
-```
-You're investigating a missing person who went missing following a party in 2019. While working through case notes you've come across the following NTIyMyBTb3V0aCBCcmFlc3dvb2QgQm91bGV2YXJkLCBIb3VzdG9u What date was the pool party?
-```
+>You're investigating a missing person who went missing following a party in 2019. While working through case notes you've come across the following NTIyMyBTb3V0aCBCcmFlc3dvb2QgQm91bGV2YXJkLCBIb3VzdG9u What date was the pool party?
+
 謎の文字列がBase64だった
 
 ```bash
@@ -58,9 +56,8 @@ flag:{20/04/2019}
 
 ## Challenge 11
 
-```
-Hi I'm Eva Hesington. Remember me from last year. I am the founder of Cryptorama. Thanks for your support we have been able to scale the business a lot. I cannot thank the open source community enough. Using Open source tools and platforms, our business has grown and our tech department is now running strong. We could not have done it without these Open Source tools and community. You can visit out website to find out more.
-```
+>Hi I'm Eva Hesington. Remember me from last year. I am the founder of Cryptorama. Thanks for your support we have been able to scale the business a lot. I cannot thank the open source community enough. Using Open source tools and platforms, our business has grown and our tech department is now running strong. We could not have done it without these Open Source tools and community. You can visit out website to find out more.
+
 CryptoRamaのWebページを https://cryptorama.cloud/ に発見。
 https://cryptorama.cloud/dist/js/main.min.js
 に
@@ -78,9 +75,7 @@ flag:{d0_N0t_cOd3_&_c0mM3nt}
 
 ## Challenge 12
 
-```
-We at CryptoRama are very concerned about sharing sensitive information to the outside world and even on the inside. We use secret sharing services. But looks like someone has been manipulating our secrets application and hindering our progress. Can you please check.
-```
+>We at CryptoRama are very concerned about sharing sensitive information to the outside world and even on the inside. We use secret sharing services. But looks like someone has been manipulating our secrets application and hindering our progress. Can you please check.
 
 CryptoRama を githubで検索すると、
 
