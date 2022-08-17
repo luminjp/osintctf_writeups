@@ -188,7 +188,7 @@ flag:{$h@r3_pa$$w0Rd5_w1tH_c@ut10n}
 ```
 
 
-## Chalenge 14 by solved @ykame
+## Chalenge 14 solved by @ykame
 
 >Our junior developer Henry Lopez cannot find his assets. Can you help him please. His credentials are given below: Username: henry.lopez Password: xxxxxxxxxxxxxx
 
@@ -320,6 +320,7 @@ openssl コマンドでcryptorama.cloiudに接続すると。
 
 assets.cryptorama.cloud を発見しました。
 
+問題文にあった、IDパスワードでログインできます。
 
 このサイトは、Snip-ITの Version v5.4.3 - build 6812 (master) を使っています。
 古いものを使っているので脆弱性を探します。
